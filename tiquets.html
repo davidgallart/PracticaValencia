@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiquets Valencia CF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/valencia.png">
+</head>
+<body>
+    <header><h1 class="titulo"> Entradas </h1></header>
+    <nav>
+        <div class="text"><pre><a class="color" href="index.html">Inicio  </a><a class="color" href="contacto.html">  Contacto  </a><a class="color" href="laplantilla.html"> La Plantilla </a><a class="color" href="tiquets.html">  Tiquets</a></pre></div>
+    </nav>
+    <hr>
+ <div class="entrada">
+   
+    <form action="html5-formularios.html" method="get" autocomplete>       
+        <h2 class="entr">Nombre completo</h2>
+        <label form="nombre">Nombre:</label> 
+        <input name="nombre" type="text"> 
+        <br><br>
+        <label form="apellido">Apellidos:</label> 
+        <input name="apellido" type="text"> 
+        <br><br>
+        
+        <h2 class="entr">Email</h2>
+        <label form="email">Correo:</label>
+        <input type="email" name="email" autocomplete="off">
+
+        <h2 class="entr">Fecha del Partido</h2>
+        <label form="date">Fecha:</label>
+        <input type="date" name="bday" min="2000-01-02">
+
+        <h2 class="entr">Numero de entradas</h2>
+        <label form="number">Cantidad:</label>
+        <input type="number" name="quantity" min="1" max="25" step="1">
+        <br><br><br>
+        <input type="submit" value="ENVIAR">
+        </form>
+</div>
+</body>
+</html>

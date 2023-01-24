@@ -1,0 +1,79 @@
+h1.titulo{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    background-color: black;
+}
+h1.plantilla{
+    background-color: black;
+    color: orange;
+    text-align: center;
+
+}
+h2.entr{
+    color: black;
+}
+div.entrada{
+    color: orange;
+    
+  
+    font-weight: bold;
+}
+
+img.por{
+    position: relative;
+    float: left;
+    width: 150px;
+height: 200px;
+}
+
+img.def{
+    position: relative;
+    float: left;
+width: 150px;
+height: 200px;
+}
+
+img.cen{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+
+img.del{
+    position: relative;
+    float: left;
+    width: 150px;
+height: 200px;
+}
+br.clear{
+    clear: left;
+    width: 150px;
+height: 200px;
+}
+div.index{
+    display: block;
+}
+
+div.text{
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a.color{
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+img.escudo{
+    position: relative;
+  
+    top: 150px;
+    width: 500px;
+    height: 250px;  
+    left: 720px;
+}
